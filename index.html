@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumen Dental Studio — Modern Dentistry</title>
+  <meta name="description" content="Lumen Dental Studio — modern, comfortable dentistry. Implants, clear aligners, whitening and same-day emergency care." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,700;0,800;0,900;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Lumen Dental Studio — home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3c-2.2 0-2.8 1.2-5 1.2C4.6 4.2 3 5.8 3 8.2c0 3 1.6 4.3 2 6.7.4 2.5.8 4.9 2.4 4.9 1.8 0 .9-4.8 2.6-5 .9-.1 1.6.4 2 1.5.4-1.1 1.1-1.6 2-1.5 1.7.2.8 5 2.6 5 1.6 0 2-2.4 2.4-4.9.4-2.4 2-3.7 2-6.7 0-2.4-1.6-4-4-4-2.2 0-2.8-1.2-5-1.2Z" />
+          </svg>
+        </span>
+        <span class="brand-name">LUMEN<span class="brand-name-accent">DENTAL</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a class="nav-link" href="#treatments">Treatments</a></li>
+          <li><a class="nav-link" href="#why-us">Why Lumen</a></li>
+          <li><a class="nav-link" href="#team">Team</a></li>
+          <li><a class="nav-link" href="#plans">Smile Plans</a></li>
+          <li><a class="nav-link" href="#faq">FAQ</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-cta-mobile"><a class="btn btn-primary" href="#contact">Book a visit</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone" href="tel:+15551234567" aria-label="Call Lumen Dental Studio">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9Z" />
+          </svg>
+          <span>(555) 123-4567</span>
+        </a>
+        <a class="btn btn-primary btn-nav" href="#contact">Book a visit</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow eyebrow-blue">Rated 4.9 / 5 by 2,300+ patients</p>
+          <h1 class="hero-title">
+            Modern dentistry.<br />
+            <span class="grad-text">Zero judgment.</span><br />
+            Serious smiles.
+          </h1>
+          <p class="hero-sub">
+            Lumen Dental Studio pairs advanced technology with clinicians who take time —
+            so every visit is comfortable, transparent and, frankly, kind of pleasant.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">
+              Book a visit
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a class="btn btn-ghost" href="#treatments">Explore treatments</a>
+          </div>
+          <ul class="hero-trust" aria-label="Clinic highlights">
+            <li>Insurance-friendly</li>
+            <li>Same-day emergency care</li>
+            <li>Interest-free financing</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" data-reveal data-reveal-delay="150">
+          <div class="hero-card">
+            <div class="hero-card-glow" aria-hidden="true"></div>
+            <svg class="hero-tooth" viewBox="0 0 200 200" role="img" aria-label="Illustration of a tooth">
+              <defs>
+                <linearGradient id="toothFill" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#57A0EE" />
+                  <stop offset="1" stop-color="#1B5FB8" />
+                </linearGradient>
+              </defs>
+              <path
+                fill="url(#toothFill)"
+                d="M100 26 C 72 26 64 40 46 40 C 24 40 15 58 15 82 C 15 110 30 122 36 150 C 40 170 44 190 57 190 C 71 190 66 150 79 148 C 89 146 95 153 100 168 C 105 153 111 146 121 148 C 134 150 129 190 143 190 C 156 190 160 170 164 150 C 170 122 185 110 185 82 C 185 58 176 40 154 40 C 136 40 128 26 100 26 Z"
+              />
+              <ellipse cx="74" cy="64" rx="14" ry="9" fill="#FFFFFF" opacity="0.35" transform="rotate(-18 74 64)" />
+            </svg>
+            <div class="float-chip chip-a" aria-hidden="true">
+              <strong>CEREC®</strong>
+              <span>same-day crowns</span>
+            </div>
+            <div class="float-chip chip-b" aria-hidden="true">
+              <strong>25,000+</strong>
+              <span>smiles treated</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-social" aria-label="Social media">
+          <a class="social-btn" href="https://instagram.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" />
+              <circle cx="12" cy="12" r="4.2" />
+              <line x1="17.3" y1="6.7" x2="17.31" y2="6.7" stroke-width="2.6" />
+            </svg>
+          </a>
+          <a class="social-btn" href="https://facebook.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Facebook" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17.5 2.5h-3.2a5.3 5.3 0 0 0-5.3 5.3v3H6.5v3.8h2.5v8.9h3.8v-8.9h3l.9-3.8h-3.9v-2.6a1.7 1.7 0 0 1 1.7-1.7h3Z" />
+            </svg>
+          </a>
+          <a class="social-btn" href="https://twitter.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Twitter" title="Twitter">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M23 4.6c-.8.4-1.7.6-2.6.8A4.5 4.5 0 0 0 22.3 3a9 9 0 0 1-2.8 1.1A4.5 4.5 0 0 0 11.7 7.4c0 .4 0 .7.1 1a12.8 12.8 0 0 1-9.3-4.7 4.5 4.5 0 0 0 1.4 6 4.4 4.4 0 0 1-2-.1 4.5 4.5 0 0 0 4.2 3.1 4.5 4.5 0 0 1-2 .1 4.5 4.5 0 0 0 4.2 3.2A9 9 0 0 1 1.8 18.6a12.7 12.7 0 0 0 6.9 2c8.3 0 12.8-6.9 12.8-12.8v-.6A9 9 0 0 0 23 4.6Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Insurance friendly</span><i>✦</i>
+          <span>Same-day emergency care</span><i>✦</i>
+          <span>Interest-free financing</span><i>✦</i>
+          <span>Digital, 3D-printed crowns</span><i>✦</i>
+          <span>Kids welcome</span><i>✦</i>
+          <span>Saturday hours</span><i>✦</i>
+        </div>
+        <div class="marquee-group">
+          <span>Insurance friendly</span><i>✦</i>
+          <span>Same-day emergency care</span><i>✦</i>
+          <span>Interest-free financing</span><i>✦</i>
+          <span>Digital, 3D-printed crowns</span><i>✦</i>
+          <span>Kids welcome</span><i>✦</i>
+          <span>Saturday hours</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ TREATMENTS ============ -->
+    <section class="section" id="treatments">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">What we do</p>
+            <h2 class="section-title">Treatments built for<br />every stage of life</h2>
+          </div>
+          <p class="section-sub">
+            From routine checkups to full smile makeovers — one clinic, one digital record,
+            and a team that actually explains things.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card" data-reveal>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 8v8M8 12h8" />
+              </svg>
+            </div>
+            <h3>Checkups &amp; Hygiene</h3>
+            <p>Twice-a-year exams with digital X-rays and gentle full cleanings. Catch it early, fix it small.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about checkups and hygiene">Learn more</a>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="80">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3Z" />
+                <path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z" />
+              </svg>
+            </div>
+            <h3>Whitening</h3>
+            <p>In-office and take-home options that lift up to eight shades — without the sensitivity drama.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about whitening">Learn more</a>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="160">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="8" width="18" height="8" rx="4" />
+                <path d="M7 12h.01M12 12h.01M17 12h.01" stroke-width="2.6" />
+              </svg>
+            </div>
+            <h3>Clear Aligners</h3>
+            <p>Discreet, removable teeth-straightening with fewer visits than traditional braces.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about clear aligners">Learn more</a>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M8 2h8M10 2v3M14 2v3M12 5v14M9 10h6M9 13h6M9 16h6" />
+                <path d="M10 19h4" />
+              </svg>
+            </div>
+            <h3>Dental Implants</h3>
+            <p>Permanent, natural-feeling replacements for missing teeth. One visit to plan, one to place.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about dental implants">Learn more</a>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="80">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 14c2.5 3.5 5 5 8 5s5.5-1.5 8-5" />
+                <path d="M4 9c2.5 3.5 5 5 8 5s5.5-1.5 8-5" opacity=".45" />
+                <path d="M4 4c2.5 3.5 5 5 8 5s5.5-1.5 8-5" opacity=".25" />
+              </svg>
+            </div>
+            <h3>Veneers &amp; Smile Design</h3>
+            <p>Digitally planned porcelain results, tailored to your face and previewed before we start.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about veneers and smile design">Learn more</a>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="160">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" />
+              </svg>
+            </div>
+            <h3>Emergency Care</h3>
+            <p>Tooth pain at 9 a.m., appointment by noon. Call before you even hang the phone.</p>
+            <a class="card-link" href="#contact" aria-label="Learn more about emergency dental care">Learn more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats">
+      <div class="container stats-row">
+        <div class="stat" data-reveal>
+          <span class="stat-num"><span data-count="25000">0</span>+</span>
+          <span class="stat-label">smiles treated</span>
+        </div>
+        <div class="stat" data-reveal data-reveal-delay="80">
+          <span class="stat-num"><span data-count="15">0</span></span>
+          <span class="stat-label">in-house specialists</span>
+        </div>
+        <div class="stat" data-reveal data-reveal-delay="160">
+          <span class="stat-num"><span data-count="98">0</span>%</span>
+          <span class="stat-label">would recommend us</span>
+        </div>
+        <div class="stat" data-reveal data-reveal-delay="240">
+          <span class="stat-num">4.9</span>
+          <span class="stat-label">average Google rating</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY LUMEN (BENTO) ============ -->
+    <section class="section" id="why-us">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">Why Lumen</p>
+            <h2 class="section-title">A clinic that runs<br />like it means it</h2>
+          </div>
+          <p class="section-sub">
+            Most of what you remember about dentists happens off the chair.
+            We rebuilt the whole experience around that.
+          </p>
+        </div>
+
+        <div class="bento">
+          <article class="bento-card bento-wide" data-reveal>
+            <h3>98% would recommend Lumen</h3>
+            <p>Measured after every single visit, not once a year. The number goes up, so we keep doing what we do.</p>
+            <div class="bento-bar" role="img" aria-label="98 percent of patients would recommend Lumen Dental">
+              <div class="bento-bar-fill" style="width: 98%"></div>
+            </div>
+          </article>
+
+          <article class="bento-card" data-reveal data-reveal-delay="80">
+            <div class="service-icon service-icon-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" />
+              </svg>
+            </div>
+            <h3>Crowns in one visit</h3>
+            <p>3D-milled in-house. In and out while the coffee is still warm.</p>
+          </article>
+
+          <article class="bento-card" data-reveal>
+            <div class="service-icon service-icon-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="14" rx="2" /><path d="M7 21h10M12 18v3" />
+              </svg>
+            </div>
+            <h3>Digital-first records</h3>
+            <p>No gag-reflex X-rays. Full-mouth scans in about ten minutes.</p>
+          </article>
+
+          <article class="bento-card" data-reveal data-reveal-delay="80">
+            <div class="service-icon service-icon-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+            </div>
+            <h3>Insurance handled for you</h3>
+            <p>We file the claims and track the paperwork. You just show up.</p>
+          </article>
+
+          <article class="bento-card" data-reveal data-reveal-delay="160">
+            <div class="service-icon service-icon-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" /><path d="M12 16v-4M12 8h.01" />
+              </svg>
+            </div>
+            <h3>Evenings &amp; Saturdays</h3>
+            <p>Open till 7 p.m. weekdays, and most Saturdays too. Life happens, we get it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2 class="section-title">From booking to result,<br />in four clean steps</h2>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li class="step" data-reveal>
+            <span class="step-num">01</span>
+            <h3>Book in 60 seconds</h3>
+            <p>Pick a time that actually works. No phone-tag, no waiting rooms filled with strangers.</p>
+          </li>
+          <li class="step" data-reveal data-reveal-delay="80">
+            <span class="step-num">02</span>
+            <h3>Meet &amp; map</h3>
+            <p>A full digital scan and an honest treatment plan with a fixed quote before anything starts.</p>
+          </li>
+          <li class="step" data-reveal data-reveal-delay="160">
+            <span class="step-num">03</span>
+            <h3>Treatment day</h3>
+            <p>Comfort options on tap, updates between procedures, and zero upsell pressure in the chair.</p>
+          </li>
+          <li class="step" data-reveal data-reveal-delay="240">
+            <span class="step-num">04</span>
+            <h3>Aftercare, handled</h3>
+            <p>Follow-up check-ins and a maintenance plan. We stay involved long after the visit.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">The humans</p>
+            <h2 class="section-title">Specialists who<br />actually listen</h2>
+          </div>
+          <p class="section-sub">
+            Small by design. Every patient sees the same senior clinicians, start to finish.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card" data-reveal>
+            <div class="team-photo" style="--ph1:#57A0EE;--ph2:#1B5FB8">
+              <span class="team-initials" aria-hidden="true">SK</span>
+              <div class="team-overlay">
+                <span>View profile</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </div>
+            </div>
+            <h3>Dr. Sarah Klein, DDS</h3>
+            <p class="team-role">Lead — Implant &amp; Cosmetic</p>
+            <p class="team-bio">Fifteen years of smile work. If you want to see your result before we touch a thing, this is your doctor.</p>
+          </article>
+
+          <article class="team-card" data-reveal data-reveal-delay="100">
+            <div class="team-photo" style="--ph1:#8FC1F4;--ph2:#2E7FD9">
+              <span class="team-initials" aria-hidden="true">DO</span>
+              <div class="team-overlay">
+                <span>View profile</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </div>
+            </div>
+            <h3>Dr. Daniel Okafor, DMD</h3>
+            <p class="team-role">Orthodontics &amp; Aligners</p>
+            <p class="team-bio">Straightens teeth without the metal. Known for the calmest aligner consultations in town.</p>
+          </article>
+
+          <article class="team-card" data-reveal data-reveal-delay="200">
+            <div class="team-photo" style="--ph1:#BBD8FA;--ph2:#57A0EE">
+              <span class="team-initials" aria-hidden="true">ML</span>
+              <div class="team-overlay">
+                <span>View profile</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </div>
+            </div>
+            <h3>Dr. Maya Lindqvist, DDS</h3>
+            <p class="team-role">Pediatric &amp; Preventive</p>
+            <p class="team-bio">Kids leave our chair asking when they can come back. That is the whole metric.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLANS ============ -->
+    <section class="section section-alt" id="plans">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">Smile plans</p>
+            <h2 class="section-title">Dentistry on a<br />flat monthly fee</h2>
+          </div>
+          <p class="section-sub">
+            No insurance maze. Pick a plan, cover the routine, and get the rest at member rates.
+            Cancel anytime.
+          </p>
+        </div>
+
+        <div class="plans-grid">
+          <article class="plan-card" data-reveal>
+            <h3>Essential</h3>
+            <p class="plan-price"><sup>$</sup>19<sub>/mo</sub></p>
+            <p class="plan-note">For healthy smiles that just need watching.</p>
+            <ul class="plan-list">
+              <li>2 cleanings &amp; 1 exam per year</li>
+              <li>Digital X-rays included</li>
+              <li>10% off all treatments</li>
+              <li>Emergency slot priority</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="#contact">Choose Essential</a>
+          </article>
+
+          <article class="plan-card plan-featured" data-reveal data-reveal-delay="100">
+            <p class="plan-badge">Most popular</p>
+            <h3>Signature</h3>
+            <p class="plan-price"><sup>$</sup>39<sub>/mo</sub></p>
+            <p class="plan-note">The full picture — routine plus cosmetic credits.</p>
+            <ul class="plan-list">
+              <li>Everything in Essential</li>
+              <li>2 cleanings per year</li>
+              <li>$100 whitening credit, bi-annual</li>
+              <li>15% off all treatments</li>
+              <li>Covers the whole family</li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="#contact">Choose Signature</a>
+          </article>
+
+          <article class="plan-card" data-reveal data-reveal-delay="200">
+            <h3>Elite</h3>
+            <p class="plan-price"><sup>$</sup>59<sub>/mo</sub></p>
+            <p class="plan-note">For people who never miss a smile.</p>
+            <ul class="plan-list">
+              <li>Everything in Signature</li>
+              <li>Unlimited emergency visits</li>
+              <li>Veneer &amp; implant concierge pricing</li>
+              <li>20% off all treatments</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="#contact">Choose Elite</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">Word of mouth</p>
+            <h2 class="section-title">Patients say it<br />better than we do</h2>
+          </div>
+        </div>
+
+        <div class="slider" data-reveal>
+          <div class="slider-viewport">
+            <div class="slider-track" id="slider-track">
+              <figure class="quote-card">
+                <div class="quote-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  <p>I put off a root canal for two years out of pure dread. It took forty minutes,
+                  I didn't feel anything, and they texted me a care plan the same evening. I'm now the
+                  one who drags my friends in here.</p>
+                </blockquote>
+                <figcaption>
+                  <span class="quote-avatar" style="--ph1:#57A0EE;--ph2:#1B5FB8" aria-hidden="true">PN</span>
+                  <div>
+                    <strong>Priya N.</strong>
+                    <span>Root canal, March 2026</span>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="quote-card">
+                <div class="quote-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  <p>My daughter refuses to go to other dentists. Lumen is the only one she walks in
+                  smiling. And the crowns came out of the same visit, which honestly felt like magic.</p>
+                </blockquote>
+                <figcaption>
+                  <span class="quote-avatar" style="--ph1:#8FC1F4;--ph2:#2E7FD9" aria-hidden="true">JM</span>
+                  <div>
+                    <strong>James M.</strong>
+                    <span>Pediatric &amp; CEREC® crowns</span>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="quote-card">
+                <div class="quote-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  <p>They showed me the 3D scan of my own mouth on the screen and walked me through
+                  every option with fixed prices. First dental clinic where I left knowing exactly
+                  what I was paying for.</p>
+                </blockquote>
+                <figcaption>
+                  <span class="quote-avatar" style="--ph1:#BBD8FA;--ph2:#57A0EE" aria-hidden="true">AS</span>
+                  <div>
+                    <strong>Ana S.</strong>
+                    <span>Clear aligners, 8-month course</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="slider-controls">
+            <button class="slider-btn" id="slider-prev" aria-label="Previous review">←</button>
+            <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Choose review"></div>
+            <button class="slider-btn" id="slider-next" aria-label="Next review">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-head" data-reveal>
+          <p class="eyebrow">Straight answers</p>
+          <h2 class="section-title">Things people<br />ask us daily</h2>
+          <p class="section-sub">Still curious? The front desk picks up the phone in under 30 seconds — average, not best day.</p>
+        </div>
+
+        <div class="faq-list" data-reveal data-reveal-delay="100">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Do you accept my insurance?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a" role="region">
+              <p>Most PPO plans, yes — we verify your benefits before you arrive and file the claims
+              ourselves. If a plan leaves gaps, our Smile Plans and interest-free financing close them.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              How fast can I be seen in an emergency?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a" role="region">
+              <p>Same day. We hold six emergency slots every morning, and the front desk knows the
+              moment one frees up. Most walk-in pain is seated within a few hours.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Are treatments really pain-free?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a" role="region">
+              <p>"Painless" is a strong word, so we don't use it on invoices — but we do use the good
+              stuff: topicals before the injection, noise-cancelling headphones, and sedation options
+              if you're in that headspace.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Can I see the price before treatment starts?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a" role="region">
+              <p>Yes. Every plan of treatment comes with a fixed quote. It only changes if you change
+              the scope — and that's your call.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Is it too late for me to get aligners?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a" role="region">
+              <p>Our oldest aligner patient started at 64. Age is rarely the constraint — jaw bone
+              quality and gum health are, and we check both in the first scan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta-banner">
+      <div class="container cta-inner" data-reveal>
+        <h2>Ready for a calmer,<br />brighter smile?</h2>
+        <p>Book in under a minute. First visits include a full digital scan and a fixed-quote plan.</p>
+        <div class="hero-cta">
+          <a class="btn btn-light" href="#contact">Book your first visit</a>
+          <a class="btn btn-outline-light" href="tel:+15551234567">(555) 123-4567</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">Visit us</p>
+            <h2 class="section-title">Drop in, or just<br />say hello first</h2>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card" data-reveal>
+            <h3>Hours</h3>
+            <ul class="hours-list">
+              <li><span>Mon – Fri</span><span>8:00 — 19:00</span></li>
+              <li><span>Saturday</span><span>9:00 — 15:00</span></li>
+              <li><span>Sunday</span><span>Closed</span></li>
+            </ul>
+            <h3>Find us</h3>
+            <p>412 Harborview Avenue, Suite 210<br />Riverton, NY 10021</p>
+            <h3>Talk to a human</h3>
+            <p>
+              <a href="tel:+15551234567">(555) 123-4567</a><br />
+              <a href="mailto:hello@lumendental.example">hello@lumendental.example</a>
+            </p>
+          </div>
+
+          <div class="booking-card" data-reveal data-reveal-delay="100">
+            <h3>Request an appointment</h3>
+            <form id="booking-form" novalidate>
+              <div class="field-row">
+                <label>
+                  <span>Full name</span>
+                  <input type="text" name="name" placeholder="Jane Doe" required autocomplete="name" />
+                </label>
+                <label>
+                  <span>Phone</span>
+                  <input type="tel" name="phone" placeholder="(555) 000-0000" required autocomplete="tel" />
+                </label>
+              </div>
+              <label>
+                <span>What do you need?</span>
+                <select name="need">
+                  <option>Checkup / cleaning</option>
+                  <option>Whitening</option>
+                  <option>Clear aligners</option>
+                  <option>Implant consultation</option>
+                  <option>Veneers / smile design</option>
+                  <option>Emergency — it hurts</option>
+                  <option>Not sure yet</option>
+                </select>
+              </label>
+              <label>
+                <span>Anything we should know?</span>
+                <textarea name="notes" rows="3" placeholder="Nervous patient, prefer a morning slot…"></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary btn-block">
+                Send request
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </button>
+              <p class="form-note" id="form-note" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="map-card" data-reveal data-reveal-delay="200" aria-label="Map placeholder showing clinic location">
+            <div class="map-pin" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <p class="map-label">Map goes here — drop in a Google Maps embed for the real address</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="#top">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3c-2.2 0-2.8 1.2-5 1.2C4.6 4.2 3 5.8 3 8.2c0 3 1.6 4.3 2 6.7.4 2.5.8 4.9 2.4 4.9 1.8 0 .9-4.8 2.6-5 .9-.1 1.6.4 2 1.5.4-1.1 1.1-1.6 2-1.5 1.7.2.8 5 2.6 5 1.6 0 2-2.4 2.4-4.9.4-2.4 2-3.7 2-6.7 0-2.4-1.6-4-4-4-2.2 0-2.8-1.2-5-1.2Z" />
+              </svg>
+            </span>
+            <span class="brand-name">LUMEN<span class="brand-name-accent">DENTAL</span></span>
+          </a>
+          <p>Modern, honest dentistry in Riverton. Open late, open Saturdays, open to new patients.</p>
+          <div class="footer-social" aria-label="Social media">
+            <a class="footer-social-link" href="https://instagram.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" />
+                <circle cx="12" cy="12" r="4.2" />
+                <line x1="17.3" y1="6.7" x2="17.31" y2="6.7" stroke-width="2.6" />
+              </svg>
+            </a>
+            <a class="footer-social-link" href="https://facebook.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17.5 2.5h-3.2a5.3 5.3 0 0 0-5.3 5.3v3H6.5v3.8h2.5v8.9h3.8v-8.9h3l.9-3.8h-3.9v-2.6a1.7 1.7 0 0 1 1.7-1.7h3Z" />
+              </svg>
+            </a>
+            <a class="footer-social-link" href="https://twitter.com/lumendental" target="_blank" rel="noopener" aria-label="Lumen Dental on Twitter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M23 4.6c-.8.4-1.7.6-2.6.8A4.5 4.5 0 0 0 22.3 3a9 9 0 0 1-2.8 1.1A4.5 4.5 0 0 0 11.7 7.4c0 .4 0 .7.1 1a12.8 12.8 0 0 1-9.3-4.7 4.5 4.5 0 0 0 1.4 6 4.4 4.4 0 0 1-2-.1 4.5 4.5 0 0 0 4.2 3.1 4.5 4.5 0 0 1-2 .1 4.5 4.5 0 0 0 4.2 3.2A9 9 0 0 1 1.8 18.6a12.7 12.7 0 0 0 6.9 2c8.3 0 12.8-6.9 12.8-12.8v-.6A9 9 0 0 0 23 4.6Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer — clinic">
+          <h4>The clinic</h4>
+          <ul>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#team">Our team</a></li>
+            <li><a href="#plans">Smile plans</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+            <li><a href="mailto:hello@lumendental.example">hello@lumendental.example</a></li>
+            <li>412 Harborview Ave, Suite 210</li>
+            <li>Riverton, NY 10021</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon – Fri · 8:00 – 19:00</li>
+            <li>Saturday · 9:00 – 15:00</li>
+            <li>Sunday · Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Lumen Dental Studio. All rights reserved.</p>
+        <p class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Accessibility</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
